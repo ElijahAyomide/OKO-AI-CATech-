@@ -464,19 +464,22 @@ header i {
 
 @media screen and (max-width: 1024px) {
     .legacy p {
+        padding: 1rem 0;
         font-size: 1.3rem;
     }
 }
 
 @media screen and (max-width: 764px) {
     .legacy p {
+        padding: 1rem 0;
         font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 540px) {
     .legacy p {
-        font-size: 14px;
+        padding: 1rem 0;
+        font-size: 1rem;
     }
 }
 
@@ -720,6 +723,183 @@ header i {
     color: #fff;
     cursor: pointer;
     transition: 0.32s ease all;
+}
+
+/* ===========================
+   1024px and below
+=========================== */
+@media (max-width: 1024px) {
+
+    .about,
+    .courses {
+        padding: 3rem 1.5rem;
+    }
+
+    .about-left,
+    .about-right,
+    .about-course {
+        gap: 1.5rem;
+    }
+
+    .profile-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .course-detail p {
+        height: auto;
+    }
+
+    .about-image {
+        height: 22.5rem;
+    }
+
+    #moreBtn {
+        width: 13rem;
+    }
+}
+
+/* ===========================
+   764px
+=========================== */
+@media (max-width: 764px) {
+
+    .about {
+        padding: 3rem 1.5rem;
+    }
+
+    .courses {
+        padding: 3rem 1.5rem;
+    }
+
+    /* Stack About Section */
+    .about-right,
+    .about-left {
+        grid-template-columns: 1fr;
+    }
+
+    .about-left {
+        align-items: start;
+    }
+
+    .about-image {
+        height: 22rem;
+        order: -1;
+    }
+
+    /* Stack Courses */
+    .about-course {
+        grid-template-columns: 1fr;
+    }
+
+    .course-detail p {
+        height: auto;
+    }
+
+    .course-btns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .profile-header h2 {
+        font-size: 1.8rem;
+    }
+
+    #moreBtn {
+        width: 30%;
+    }
+}
+
+/* ===========================
+   540px
+=========================== */
+@media (max-width: 540px) {
+
+    .about,
+    .courses {
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+    }
+
+    .profile-header h2 {
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+
+    .profile-header p {
+        font-size: 13px;
+    }
+
+    .about-left p {
+        font-size: 15px;
+    }
+
+    .detail {
+        padding: 0.9rem;
+    }
+
+    .top-right {
+        gap: 10px;
+    }
+
+    .top-right h5 {
+        font-size: 15px;
+    }
+
+    .top-right i {
+        padding: 8px;
+        font-size: 1rem;
+    }
+
+    .top-detail i {
+        font-size: 1.2rem;
+    }
+
+    .bottom-detail p {
+        font-size: 14px;
+    }
+
+    .about-image {
+        height: 18rem;
+    }
+
+    .course-detail {
+        padding: 1rem;
+    }
+
+    .course-header {
+        gap: 10px;
+    }
+
+    .course-header h5 {
+        font-size: 15px;
+    }
+
+    .course-header i {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+
+    .course-detail p {
+        font-size: 14px;
+        line-height: 1.5;
+        height: auto;
+    }
+
+    /* Stack buttons */
+    .course-btns {
+        grid-template-columns: 1fr;
+    }
+
+    .applyBtn,
+    .viewBtn {
+        width: 100%;
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    #moreBtn {
+        width: 100%;
+        font-size: 15px;
+    }
 }
 
 .solutions {

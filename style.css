@@ -767,6 +767,11 @@ header i {
         padding: 3rem 1.5rem;
     }
 
+    .profile-header {
+        align-items: center;
+        text-align: center;
+    }
+
     .courses {
         padding: 3rem 1.5rem;
     }
@@ -817,6 +822,11 @@ header i {
     .courses {
         padding: 2rem 1rem;
         gap: 1.5rem;
+    }
+
+    .profile-header {
+        align-items: center;
+        text-align: center;
     }
 
     .profile-header h2 {

@@ -351,12 +351,23 @@ header i {
     html {
         font-size: 65%;
     }
+
+    .hero-page {
+        height: 80rem;
+    }
+
+    .top-container {
+        height: 87%;
+    }
+
+    .bottom-container {
+        height: 13%;
+    }
     
     header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
         margin: 1rem;
         padding: 1rem;
     }
@@ -379,7 +390,7 @@ header i {
     }
 
     .hero-details {
-        margin-top: 5.5rem;
+        margin-top: 20rem;
         padding: 0 1rem;
     }
 

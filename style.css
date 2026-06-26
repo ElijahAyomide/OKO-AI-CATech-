@@ -305,14 +305,24 @@ header i {
         gap: 1.5rem;
     }
 
+    .main-link,
+    .other-link {
+        font-size: 1.1rem;
+    }
+
     #contactBtn {
         padding: 10px 14px;
         border-radius: 5px;
+        font-size: 1.1rem;
     }
 
     .hero-details {
-        margin-top: 7rem;
+        margin-top: 6rem;
         padding: 0 1rem;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
     }
 
     .hero-btns {
@@ -324,6 +334,7 @@ header i {
     #checkBtn {
         border-radius: 5px;
         padding: 10px 14px;
+        font-size: 1.1rem;
     }
 
     .bottom-container {
@@ -334,6 +345,7 @@ header i {
 
     .ads {
         width: 100%;
+        font-size: 1.2rem;
         justify-content: center;
         text-align: center;
         padding: 0.5rem 1rem;
@@ -343,6 +355,11 @@ header i {
         position: relative;
         width: 100%;
         padding: 1rem;
+    }
+
+    .logo {
+        width: 7.2rem;
+        height: 2rem;
     }
 }
 
@@ -443,6 +460,24 @@ header i {
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
     /* text-align: center; */
+}
+
+@media screen and (max-width: 1024px) {
+    .legacy p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .legacy p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .legacy p {
+        font-size: 14px;
+    }
 }
 
 .about {

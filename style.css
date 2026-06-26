@@ -353,27 +353,15 @@ header i {
     }
 
     .hero-page {
-        height: 75rem;
+        height: 60rem;
     }
 
     .top-container {
-        height: 87%;
+        height: 83%;
     }
 
     .bottom-container {
-        height: 13%;
-    }
-
-    .hero-page {
-        height: 80rem;
-    }
-
-    .top-container {
-        height: 87%;
-    }
-
-    .bottom-container {
-        height: 13%;
+        height: 17%;
     }
     
     header {
@@ -403,8 +391,12 @@ header i {
     }
 
     .hero-details {
-        margin-top: 20rem;
+        margin-top: 8rem;
         padding: 0 1rem;
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
     }
 
     .hero-text h1 {
@@ -419,11 +411,11 @@ header i {
     #startBtn,
     #checkBtn {
         width: 100%;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .ads {
-        font-size: 1rem;
+        font-size: 1.5rem;
         width: 100%;
         justify-content: center;
         text-align: center;

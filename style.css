@@ -1571,6 +1571,157 @@ header i {
     background-color: #277906;
 }
 
+/* ===========================
+   1024px and below
+=========================== */
+@media (max-width: 1024px) {
+
+    .contact {
+        padding: 0 1.5rem 3rem;
+    }
+
+    .contact-us {
+        gap: 1.5rem;
+    }
+
+    .message-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .location {
+        padding: .9rem;
+    }
+}
+
+/* ===========================
+   764px and below
+=========================== */
+@media (max-width: 764px) {
+
+    .contact {
+        padding: 0 1.5rem 3rem;
+        text-align: center;
+    }
+
+    .contact-us {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        justify-items: center;
+    }
+
+    .contact-details,
+    .message-details {
+        width: 100%;
+        /* max-width: 500px; */
+    }
+
+    .location {
+        width: 100%;
+        text-align: left;
+    }
+
+    .message-header {
+        align-items: center;
+    }
+
+    .message-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .message-header p {
+        font-size: 14px;
+    }
+
+    .text-box {
+        text-align: left;
+    }
+
+    .text-box label {
+        font-size: 14px;
+    }
+
+    .text-box input,
+    .text-box textarea {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    #sendBtn {
+        width: 100%;
+    }
+}
+
+/* ===========================
+   540px and below
+=========================== */
+@media (max-width: 540px) {
+
+    .contact {
+        padding: 0 1rem 2rem;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .contact-us {
+        gap: 1.5rem;
+    }
+
+    .contact-details,
+    .message-details {
+        width: 100%;
+    }
+
+    .location {
+        padding: .9rem;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .location i {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+
+    .location h5 {
+        font-size: 15px;
+    }
+
+    .location p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .message-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .message-header p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .text-box label {
+        font-size: 14px;
+    }
+
+    .text-box input,
+    .text-box textarea {
+        font-size: 14px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .text-box textarea {
+        min-height: 120px;
+    }
+
+    #sendBtn {
+        width: 100%;
+        font-size: 15px;
+        padding: 12px;
+    }
+}
+
 .common-questions {
     display: flex;
     flex-direction: column;
@@ -1639,6 +1790,119 @@ header i {
 .detail-header i.active-icon {
     background-color: #1F6105;
     color: #fff;
+}
+
+/* ===========================
+   1024px and below
+=========================== */
+@media (max-width: 1024px) {
+
+    .common-questions {
+        padding: 3rem 1.5rem;
+    }
+
+    .frequent-questions {
+        gap: 1.5rem;
+    }
+
+    .question-details {
+        padding: .9rem;
+    }
+
+    .detail-header h5 {
+        font-size: 1rem;
+    }
+
+    .question-details p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+
+/* ===========================
+   764px and below
+=========================== */
+@media (max-width: 764px) {
+
+    .common-questions {
+        padding: 3rem 1.5rem;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .frequent-questions {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 1rem;
+    }
+
+    .question-details {
+        width: 100%;
+        /* max-width: 500px; */
+        text-align: left;
+    }
+
+    .detail-header h5 {
+        font-size: 1rem;
+        line-height: 1.4;
+        flex: 1;
+    }
+
+    .detail-header i {
+        font-size: 1.2rem;
+        padding: 7px;
+        flex-shrink: 0;
+    }
+
+    .question-details p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+
+/* ===========================
+   540px and below
+=========================== */
+@media (max-width: 540px) {
+
+    .common-questions {
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .frequent-questions {
+        gap: .8rem;
+    }
+
+    .question-details {
+        width: 100%;
+        padding: .9rem;
+        gap: .8rem;
+        text-align: left;
+    }
+
+    .detail-header {
+        gap: .75rem;
+        align-items: center;
+    }
+
+    .detail-header h5 {
+        font-size: 15px;
+        line-height: 1.4;
+        flex: 1;
+    }
+
+    .detail-header i {
+        font-size: 1rem;
+        padding: 6px;
+        flex-shrink: 0;
+    }
+
+    .question-details p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
 }
 
 .footer-image {

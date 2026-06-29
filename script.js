@@ -98,3 +98,18 @@ modal.addEventListener("click", (e) => {
         modal.classList.remove("active");
     }
 });
+
+const header = document.querySelector("header");
+const menuIcon = document.querySelector(".menu-icon");
+
+menuIcon.addEventListener("click", () => {
+
+    header.classList.toggle("active");
+
+    if(header.classList.contains("active")){
+        menuIcon.classList.replace("ph-list","ph-x");
+    }else{
+        menuIcon.classList.replace("ph-x","ph-list");
+    }
+
+});

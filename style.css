@@ -1609,7 +1609,15 @@ header i {
         justify-items: center;
     }
 
-    .contact-details,
+    .contact-details {
+        display: none;
+        /* max-width: 500px; */
+    }
+
+    .message-header {
+        display: none;
+    }
+
     .message-details {
         width: 100%;
         /* max-width: 500px; */
@@ -1666,7 +1674,15 @@ header i {
         gap: 1.5rem;
     }
 
-    .contact-details,
+    .contact-details {
+        display: none;
+        /* max-width: 500px; */
+    }
+
+    .message-header {
+        display: none;
+    }
+
     .message-details {
         width: 100%;
     }
@@ -1975,6 +1991,7 @@ header i {
 .mail {
     display: flex;
     gap: 7px;
+    align-items: center;
     padding: 7px 1rem;
     background-color: #fff;
     width: fit-content;
@@ -2091,6 +2108,188 @@ hr {
     font-size: 1rem;
     color: rgba(0, 0, 0, .5);
 } */
+
+/* ===========================
+   1024px and below
+=========================== */
+@media (max-width: 1024px) {
+
+    .footer-image {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .transparent-container {
+        width: calc(100% - 3rem);
+        margin: 1.5rem;
+    }
+
+    .content-container {
+        gap: 3rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .content-details {
+        gap: 2rem;
+    }
+
+    .footer-header {
+        width: 35%;
+    }
+
+    .footer-links {
+        width: 60%;
+        gap: 2rem;
+    }
+
+    .copyright {
+        gap: 1rem;
+        align-items: center;
+    }
+}
+
+/* ===========================
+   764px and below
+=========================== */
+@media (max-width: 764px) {
+
+    .footer-image {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .transparent-container {
+        width: calc(100% - 2rem);
+        margin: 1rem;
+    }
+
+    .content-container {
+        padding: 1.5rem;
+        gap: 2.5rem;
+    }
+
+    .content-details {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .footer-header {
+        width: 100%;
+    }
+
+    .footer-links {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .social-media {
+        margin-top: 1rem;
+    }
+
+    .copyright {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .policy {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+/* ===========================
+   540px and below
+=========================== */
+@media (max-width: 540px) {
+
+    .footer-image {
+        padding: 1.5rem 0;
+    }
+
+    .transparent-container {
+        width: calc(100% - 1rem);
+        margin: .5rem;
+        padding: .75rem;
+    }
+
+    .content-container {
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .content-details {
+        gap: 2rem;
+    }
+
+    .footer-header {
+        width: 100%;
+    }
+
+    .footer-header p {
+        font-size: 13px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .quicklinks {
+        gap: 10px;
+    }
+
+    .links {
+        gap: 8px;
+    }
+
+    .links a {
+        font-size: 13px;
+    }
+
+    .mail {
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .socials-icon {
+        flex-wrap: wrap;
+    }
+
+    .socials-icon i {
+        font-size: 1.3rem;
+    }
+
+    #footerContact {
+        display: none;
+        width: 100%;
+    }
+
+    .footer-bottom {
+        gap: .75rem;
+    }
+
+    .copyright {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+
+    .policy {
+        justify-content: center;
+        text-align: center;
+    }
+}
 
 /* FOR APPLY AND VIEW DETAILS POP UPS */
 .modal-overlay {
